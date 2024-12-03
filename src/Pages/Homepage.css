@@ -1,0 +1,25 @@
+.homepage{
+    display: flex;
+    width: 100%;
+}
+
+.left-side{
+    width: 44rem;
+    display: flex;
+    flex-direction: column;
+    gap: 8rem;
+    position: fixed;
+    margin-top: 9rem;
+    top: 0;
+    bottom: 10rem;  /* Adjust this value to create space at the bottom */
+    background-color: transparent;
+    z-index: 10;
+}
+.right-side{
+    width: 100%;
+    /* margin-top: 9rem; */
+    padding-left: 47rem;
+    height: 100vh;
+    display: flex;
+    flex-direction: column
+}

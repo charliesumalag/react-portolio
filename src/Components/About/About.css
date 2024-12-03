@@ -1,0 +1,12 @@
+.about-container{
+    display: flex;
+    flex-direction: column;
+    gap: 1.8rem;
+    padding-top: 9rem;
+
+}
+.about-text{
+    font-weight: 300;
+    line-height: 1.7;
+    color: #bfbfbf;
+}

@@ -1,0 +1,7 @@
+.app{
+  max-width: 110rem;
+  margin-inline: auto;
+  padding-bottom: 5rem;
+  display: flex;
+
+}
