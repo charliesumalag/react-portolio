@@ -25,6 +25,13 @@ const Projects = ({id}) => {
             description: 'This web application presents multiple-choice questions, tracks the score, and displays the results at the end. It features a timer, dynamic question buttons, and a score counter for a user-friendly quiz experience.',
             languages: ['HTML', 'CSS', 'JavaScript']
         },
+        {
+            image: '/groupexpensetracker.png',
+            title: 'Group Expense Tracker Web Application',
+            link: 'https://charliesumalag-group-track-expenses.netlify.app/',
+            description: 'This Group Expense Tracker lets users manage shared expenses, track payments, and calculate who owes what. It stores data locally for persistence and features an easy-to-use interface for adding and removing members and expenses.',
+            languages: ['HTML', 'CSS', 'React JS']
+        }
 
     ]
     const [hoveredIndex, setIsHoveredIndex] = useState(null);
